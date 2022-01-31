@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 0.918) 2%,
+    rgba(148, 188, 233, 0.938) 100%
+  );
+  color: rgba(0, 0, 0, 0.788);
+  display: flex;
+  justify-content: center;
+  margin: 7rem;
+}
+.container {
+  height: 60vh;
+  width: 70vw;
+  background-color: #fff;
+  box-shadow: 2px -2px 70px rgba(0, 0, 0, 0.836);
+  border-radius: 10px;
+}
+.container h1 {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  color: rgba(0, 0, 0, 0.788);
+}
+.display {
+  display: flex;
+  justify-content: center;
+}
+.display .celsius {
+  margin-right: 2rem;
+  text-align: center;
+}
+.celsius label {
+  font-size: 1.3rem;
+}
+.celsius input {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  padding: 10px 30px;
+  text-align: center;
+}
+.display .fahrenheit {
+  margin-right: 2rem;
+  text-align: center;
+}
+.fahrenheit label {
+  font-size: 1.3rem;
+}
+.fahrenheit input {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    margin: 10rem;
+    overflow-y: hidden;
+  }
+  .container h1 {
+    font-size: 1.7rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  .display {
+    display: flex;
+    flex-direction: column;
+  }
+  .celsius input {
+    width: 200px;
+    outline: 0px;
+    border: 1px solid #000;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+  }
+  .fahrenheit input {
+    width: 200px;
+    outline: 0px;
+    border: 1px solid #000;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+  }
+}
