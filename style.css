@@ -64,7 +64,7 @@ body {
 
 @media only screen and (max-width: 500px) {
   body {
-    margin: 7rem;
+    margin: 3rem;
     overflow-y: hidden;
   }
   .container h1 {
