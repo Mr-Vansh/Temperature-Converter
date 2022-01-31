@@ -19,7 +19,7 @@ body {
   margin: 7rem;
 }
 .container {
-  height: 60vh;
+  min-height: 60vh;
   width: 70vw;
   background-color: #fff;
   box-shadow: 2px -2px 70px rgba(0, 0, 0, 0.836);
